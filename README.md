@@ -35,6 +35,8 @@ There are two branches that come from the session entity that include Classes an
 For Classes entity, many classes can be in one room. However, you can have a workout class without a room, for example, outdoor classes like running or yoga. This is represented by an indirect many to one relationship between the Classes entity and the Rooms entity. Each room has one amenity, and an amentiy can only exist in one room, meaning there is a one to one identifying relationship between the two. The Amentiy table (Spa, Food, Massage, Pool, etc.) shows the benefits of the gym membership that clients can receive.
 
 Lastly, a gym is not complete without its equipment, which can be a valuable tool in a workout. The Equipment table includes the equipment name, as well as its ID, to track what the gym owns in inventory. This has a direct many to one relationship to the Rooms table, as one room can have many pieces of equipment for the workout offered in that room.
+<img width="1009" alt="Screenshot 2024-09-29 at 2 46 43 PM" src="https://github.com/user-attachments/assets/944f882c-aed5-422f-af08-d9fd49d0046a">
+
 
 **Data Dictionary:**
 
@@ -44,6 +46,8 @@ Lastly, a gym is not complete without its equipment, which can be a valuable too
 
 
 **Database information:**
+
+Name of the database: ns_4610Fa24Group4
 
 
 
