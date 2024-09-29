@@ -46,6 +46,7 @@ Lastly, a gym is not complete without its equipment, which can be a valuable too
 
 
 **Database information:**
+Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
 
 Name of the database: ns_4610Fa24Group4
 
