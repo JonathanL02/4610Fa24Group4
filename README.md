@@ -37,7 +37,7 @@ For Classes entity, many classes can be in one room. However, you can have a wor
 Lastly, a gym is not complete without its equipment, which can be a valuable tool in a workout. The Equipment table includes the equipment name, as well as its ID, to track what the gym owns in inventory. This has a direct many to one relationship to the Rooms table, as one room can have many pieces of equipment for the workout offered in that room.
 
 
-<img width="469" alt="Screenshot 2024-09-29 at 3 12 26 PM" src="https://github.com/user-attachments/assets/2c0c1776-3f40-4a26-a244-166715162740">
+<img width="600" alt="Screenshot 2024-09-29 at 3 12 26 PM" src="https://github.com/user-attachments/assets/2c0c1776-3f40-4a26-a244-166715162740">
 
 
 **Data Dictionary:**
