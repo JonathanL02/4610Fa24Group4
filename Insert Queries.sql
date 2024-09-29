@@ -28,7 +28,10 @@ INSERT INTO Rooms VALUES
 ("213", "Cycling", "2"),
 ("125", "Spa", "1"),
 ("126", "Massage", "1"),
-("127", "Pool", "1");
+("127", "Pool", "1"),
+("322", "Open Gym 2", "3"),
+("124", "Studio 2", "1"),
+("215", "Powerlifting Room", "2");
 
 INSERT INTO Amenities VALUES
 ("1", "Spa", "123"),
@@ -38,7 +41,8 @@ INSERT INTO Amenities VALUES
 INSERT INTO Equipment VALUES
 ("13252", "Treadmill 1", "321"),
 ("13253", "Treadmill 2", "321"),
-("14234", "Bench 1", "123");
+("14234", "Bench 1", "123"),
+("14235", "Bench 2", "123");
 
 INSERT INTO Memberships VALUES
 ("9873","9.99","Basic","Monthly","Basic membership, no ammenities, 1 class"),
@@ -67,4 +71,5 @@ INSERT INTO Members_Taking_Sessions VALUES
 ("SESS10011", "CLS1001", "213", "L7VJ9NAC1D", "DSM6S4UDJT", "AB12CD34EF", "9873"),
 ("SESS10011", "CLS1001", "213", "L7VJ9NAC1D", "DSM6S4UDJT", "GH56IJ78KL", "9874"),
 ("SESS10021", "CLS1002", "123", "F9XMEHQO2H", "X901IJRV4A", "MN90OP12QR", "9875"),
-("SESS10031", "CLS1003", "321", "2X2PUR55ND", "XJX5FU3I96", "ST34UV56WX", "9876");
+("SESS10031", "CLS1003", "321", "2X2PUR55ND", "XJX5FU3I96", "ST34UV56WX", "9876"),
+("SESS10011", "CLS1001", "213", "L7VJ9NAC1D", "DSM6S4UDJT", "MN90OP12QR", "9875");
