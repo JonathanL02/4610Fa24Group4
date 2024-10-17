@@ -46,7 +46,20 @@ Overall, the data model truly organizes the functionality of a gym, and pieces t
 
 
 **Queries:**
+1. Query 1 lists the number of members taking a specific class, grouping by the name of the class and ordering by descending.
 
+Query 1 allows managers to see which sessions are the most popular, which can be seen by the count of members taking each class. This information is likely needed to help organize scheduling, to make sure the classes that have the highest turnout are more populated on the schedule than those that do not have anyone taking it. Managers are also able to identify trends through this query by understanding more about their members and clients' needs. 
+
+2. Query 2 lists the number of sessions that are above the average class duration, which are grouped by the type of class.
+
+A class that goes above the duration time can impact the scheduling of classes, as this can be due by an instructor teaching off the normal time or a class that's offered for a longer period of time for those who want to workout for longer. If the session duration is longer than average and the managers don't schedule around this, it may cause delays to classes that are right after the session before, giving employees a harder time to change over. In addition, the number of classes offered can allow managers to see who are taking these longer sessions, and if the time it is offered fits those certain members; maybe it is students after school or people who are taking a lunch time break. It helps for managers to achieve their goal of making sure each session gets capacity members taking it for most profit. 
+
+3. Query 3 lists the members who are not taking any classes at the gym. The results were ordered by the members' last names.
+
+Query 3 shows insight into the specific information on the clients that do not attend any sessions at the gym. This is an analysis tool to understanding if there are any patterns with those who do not take classes: do they prefer personal training? working out on their own? This offers new ideas and strategies to outreach to these customers to make sure the gym is still profitting from them, maybe offering personal training instead of sessions for a different charge. 
+
+4. Query 4 lists the least popular membership, grouping by membership type and counting how many people have each type of membership.
+   By analyzing the least popular membership, the business can determine the next steps for what type of membership should be involved instead to achieve higher amount of clients attending the gym. Showing results for least popular membership can help managers see if they should get rid of the membership completely and stick with the other types or adjust it slightly to market it better to the target market.
 
 **Database information:**
 
