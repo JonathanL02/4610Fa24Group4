@@ -67,3 +67,10 @@ WHERE sessionDATE BETWEEN '2023-10-01' AND '2023-12-31'
 GROUP BY memberFName, memberLName;
 
 CALL TP_Q6();
+
+#List members based off of where they are from ( might help us with advertising methods such as disturbuting bring free guest to memebers of that 	area)
+SELECT COUNT(memberID) AS "Members in the Area", zipCode
+FROM Members
+GROUP BY zipCode;
+
+CALL TP_Q7();
