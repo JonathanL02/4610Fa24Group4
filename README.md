@@ -68,6 +68,11 @@ Query 3 shows insight into the specific information on the clients that do not a
 4. Query 4 lists the least popular membership, grouping by membership type and counting how many people have each type of membership.
    By analyzing the least popular membership, the business can determine the next steps for what type of membership should be involved instead to achieve higher amount of clients attending the gym. Showing results for least popular membership can help managers see if they should get rid of the membership completely and stick with the other types or adjust it slightly to market it better to the target market.
 
+5. Query 5 finds employees who supervise the most people and their rating for sessions is less than 5.
+![IMG_1114](https://github.com/user-attachments/assets/243b2f57-f671-4a86-a681-3d73051c8a0d)
+
+Query 5 shows us if supervising is helping employees properly learn to teach sessions, or if the members do not like these teachers due to it. Those that supervise and have a poor rating show us they should not be supervisors since the memebrs do not like their classes. This also shows us that if a supervisor is supervising too many people, is it hindering their ratings and is there any correlation between that. 
+
 **Database information:**
 
 Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
