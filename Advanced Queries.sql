@@ -1,4 +1,4 @@
-#The number of members taking a specific class, finding which class is most popular
+# The number of members taking a specific class, finding which class is most popular
 SELECT className, COUNT(DISTINCT(memberID)) AS "Number of members taking class"
 FROM Classes
 JOIN Sessions ON Classes.classID = Sessions.classID
@@ -8,15 +8,7 @@ ORDER BY COUNT(DISTINCT(memberID)) DESC;
 
 CALL TP_Q1();
 
-#Finds which members are not taking any classes
-SELECT memberFName, memberLName
-FROM Members
-WHERE NOT EXISTS (SELECT memberID FROM Members_Taking_Sessions WHERE Members.memberID = Members_Taking_Sessions.memberID)
-ORDER BY memberLName;
-
-CALL TP_Q3();
-
-#The number of classes that are above the average class duration
+# The number of classes that are above the average class duration
 SELECT COUNT(duration) AS "Number of sessions over average", className, AVG(duration) AS "Average session duration", 
 (SELECT AVG(duration) FROM Sessions) AS "Average duration of all sessions"
 FROM Sessions
@@ -26,7 +18,15 @@ GROUP BY className;
 
 CALL TP_Q2();
 
-#Finds the least popular membership to determine next steps (sunsetting the membership or adjusting it)
+# Finds which members are not taking any classes
+SELECT memberFName, memberLName
+FROM Members
+WHERE NOT EXISTS (SELECT memberID FROM Members_Taking_Sessions WHERE Members.memberID = Members_Taking_Sessions.memberID)
+ORDER BY memberLName;
+
+CALL TP_Q3();
+
+# Finds the least popular membership to determine next steps (sunsetting the membership or adjusting it)
 SELECT membershipType, COUNT(memberID) AS "Number of members"
 FROM Memberships
 JOIN Members ON Memberships.membershipID = Members.membershipID
@@ -35,7 +35,7 @@ ORDER BY COUNT(memberID);
 
 CALL TP_Q4();
 
-#Finds supervisors with a low rating in their sessions
+# Finds supervisors with a low rating in their sessions
 SELECT sup.employeeID, sup.employeeFname, sup.employeeLName 
 FROM Employees AS sub
 JOIN Employees AS sup ON sub.supervisorID = sup.employeeID 
@@ -68,23 +68,23 @@ GROUP BY memberFName, memberLName;
 
 CALL TP_Q6();
 
-#List members based off of where they are from ( might help us with advertising methods such as disturbuting bring free guest to memebers of that 	area)
+# List members based off of where they are from ( might help us with advertising methods such as disturbuting bring free guest to memebers of that 	area)
 SELECT COUNT(memberID) AS "Members in the Area", zipCode
 FROM Members
 GROUP BY zipCode;
 
 CALL TP_Q7();
 
-#List the rooms that have Dumbbells and Treadmill and the amount in each room (inventory check regarding purchasing new equipment or rooms without this equipment need to purchase that equipment)
+# List the rooms that have Dumbbells and Treadmill and the amount in each room (inventory check regarding purchasing new equipment or rooms without this equipment need to purchase that equipment)
 SELECT roomType, COUNT(equipmentName)
 FROM Rooms
 JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
 WHERE equipmentName IN ("Dumbbells", "Treadmill")
 GROUP BY roomType;
 
-CALL TP_8();
+CALL TP_Q8();
 
-#Which employees teach the same member in 2 or more of their classes (this would help us see whihc employees memebrs favor and mayne have these memebers teach more classes) 
+# Which employees teach the same member in 2 or more of their classes (this would help us see whihc employees memebrs favor and mayne have these memebers teach more classes) 
 SELECT employeeFName, employeeLName, memberFName, memberLName, COUNT(Sessions.sessionID)
 FROM Employees 
 JOIN Sessions ON Employees.employeeID = Sessions.employeeID
@@ -93,10 +93,9 @@ JOIN Members ON Members_Taking_Sessions.memberID = Members.memberID
 GROUP BY employeeFName, employeeLName, memberFName, memberLName
 HAVING COUNT(Sessions.sessionID) >= 2;
 
-CALL TP_9();
+CALL TP_Q9(); 
 
-#How much equipment exists in each room
-
+# How much equipment exists in each room
 SELECT Rooms.roomNumber, COUNT(Equipment.equipmentID)
 FROM Rooms
 JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
