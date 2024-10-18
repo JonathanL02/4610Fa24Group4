@@ -73,6 +73,13 @@ Query 3 shows insight into the specific information on the clients that do not a
 
 Query 5 shows us if supervising is helping employees properly learn to teach sessions, or if the members do not like these teachers due to it. Those that supervise and have a poor rating show us they should not be supervisors since the memebrs do not like their classes. This also shows us that if a supervisor is supervising too many people, is it hindering their ratings and is there any correlation between that. 
 
+6. Query 6 lists the members who take sessions between January and March, as well as October through December, and lists the percentage of sessions in comparison to the total yearly sessions.
+![IMG_1853](https://github.com/user-attachments/assets/7051a993-4c5a-4727-b6ba-7f80723ee403)
+![IMG_7583](https://github.com/user-attachments/assets/7f33d1c5-3f78-4cc8-8c9d-2f5c10b9fef4)
+
+
+This query allows managers to analyze and compare these two seasons to see how popular the gym is. October through December is holiday season when members usually take vacations, so this query can show us if there is a dip in the amount of memebrs that take sessions during this time. January through March is usually when gyms pick back up in attendance, so managers can see if this is true through the query. 
+
 **Database information:**
 
 Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
