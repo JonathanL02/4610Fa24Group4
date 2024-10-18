@@ -93,6 +93,12 @@ This query allows managers to get a better understanding of the demographics of 
 
 This query can serve as an inventory check for the business to track how much and where all of the equipment is. This can help in regards to if a specific piece of equipment needs a repurchase, if there a rooms that don't already have the equipment in it and need it for a certain session, or if more members join a session in that room and a piece of equipment is needed. This organizes and analyzes inventory, a key component to running a gym. 
 
+9. Query 9 lists the employees and members where the employee taught the same member in at least 2 of their sessions.
+![IMG_2944](https://github.com/user-attachments/assets/f3607e8f-9293-445a-95a0-d97a9b50e69e)
+
+This query allows the business to see who the members' favorite teachers are, and can help to make the business decision on whether the employee should teach more sessions and if that will help populate the schedule. For example, the same employee in this table was favored by multiple members, showing that the employee can be promoted to a higher teaching position if they believe it will bring in more revenue and better feedback. 
+
+
 **Database information:**
 
 Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
