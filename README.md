@@ -10,7 +10,7 @@ Lindsay Fleishman @LindsayFleishman
 
 Jonathan Li [@JonathanL02](https://github.com/JonathanL02)
 
-Arti Girish @artig123
+Arti Girish [@artig123](https://github.com/artig123)
 
 Anish Kapoor @a-kapoor731
 
