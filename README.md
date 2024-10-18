@@ -43,6 +43,18 @@ Overall, the data model truly organizes the functionality of a gym, and pieces t
 
 **Data Dictionary:**
 
+<img width="860" alt="Screenshot 2024-10-18 at 1 40 43 PM" src="https://github.com/user-attachments/assets/167a6e7a-be99-4884-8f39-ebcacc1d8d59">
+
+<img width="854" alt="Screenshot 2024-10-18 at 1 41 23 PM" src="https://github.com/user-attachments/assets/781db77a-6a8c-43de-b266-62c7676565ec">
+
+<img width="855" alt="Screenshot 2024-10-18 at 1 41 47 PM" src="https://github.com/user-attachments/assets/f037c66f-7ece-4615-9869-0b307206ad8a">
+<img width="684" alt="Screenshot 2024-10-18 at 1 42 25 PM" src="https://github.com/user-attachments/assets/995f8e6c-aed0-4954-83d1-de1ceb71017f">
+<img width="682" alt="Screenshot 2024-10-18 at 1 43 20 PM" src="https://github.com/user-attachments/assets/bb9f9b58-f590-48d6-adaa-d800a36f71f2">
+<img width="682" alt="Screenshot 2024-10-18 at 1 43 11 PM" src="https://github.com/user-attachments/assets/6578b5aa-56a5-4d48-a59d-d7aa90b1cd0a">
+<img width="680" alt="Screenshot 2024-10-18 at 1 43 02 PM" src="https://github.com/user-attachments/assets/3a148da6-282f-41d8-aa6f-afe49c566b4e">
+<img width="687" alt="Screenshot 2024-10-18 at 1 42 50 PM" src="https://github.com/user-attachments/assets/612b79f6-ddc3-4733-b93e-7a63a0749206">
+<img width="686" alt="Screenshot 2024-10-18 at 1 42 43 PM" src="https://github.com/user-attachments/assets/bfdc5e24-5990-43ab-9ce5-9ce15ad0d4a3">
+<img width="689" alt="Screenshot 2024-10-18 at 1 42 33 PM" src="https://github.com/user-attachments/assets/d9523cfc-ddec-4077-a561-b1089d5875c4">
 
 
 **Queries:**
