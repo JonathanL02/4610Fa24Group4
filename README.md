@@ -83,6 +83,11 @@ Query 5 shows us if supervising is helping employees properly learn to teach ses
 
 This query allows managers to analyze and compare these two seasons to see how popular the gym is. October through December is holiday season when members usually take vacations, so this query can show us if there is a dip in the amount of memebrs that take sessions during this time. January through March is usually when gyms pick back up in attendance, so managers can see if this is true through the query. 
 
+7. Query 7 lists the amount of members grouped by where they are from.
+![IMG_2552](https://github.com/user-attachments/assets/a6624bac-72c8-4d1e-a30d-1ed61a90b986)
+
+This query allows managers to get a better understanding of the demographics of their clients. If more come from a certain area, this can help with marketing strategies to help relate to the members and produce more revenue.
+
 **Database information:**
 
 Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
