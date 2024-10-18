@@ -83,3 +83,14 @@ WHERE equipmentName IN ("Dumbbells", "Treadmill")
 GROUP BY roomType;
 
 CALL TP_8();
+
+#Which employees teach the same member in 2 or more of their classes (this would help us see whihc employees memebrs favor and mayne have these memebers teach more classes) 
+SELECT employeeFName, employeeLName, memberFName, memberLName, COUNT(Sessions.sessionID)
+FROM Employees 
+JOIN Sessions ON Employees.employeeID = Sessions.employeeID
+JOIN Members_Taking_Sessions ON Sessions.sessionID = Members_Taking_Sessions.sessionID
+JOIN Members ON Members_Taking_Sessions.memberID = Members.memberID 
+GROUP BY employeeFName, employeeLName, memberFName, memberLName
+HAVING COUNT(Sessions.sessionID) >= 2;
+
+CALL TP_9();
