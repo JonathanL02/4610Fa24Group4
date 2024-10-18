@@ -115,10 +115,11 @@ This query can serve as an inventory check for the business to track how much an
 
 This query allows the business to see who the members' favorite teachers are, and can help to make the business decision on whether the employee should teach more sessions and if that will help populate the schedule. For example, the same employee in this table was favored by multiple members, showing that the employee can be promoted to a higher teaching position if they believe it will bring in more revenue and better feedback. 
 
-10. Query 10
+10. Query 10 lists how many employees are supervised under the supervisor for a specialty. 
 
-Query 10 allows managers to see which departments may be understaffed and if there is any depth within each department that can help. For example, 
 <img width="1007" alt="Screenshot 2024-10-18 at 4 54 08 PM" src="https://github.com/user-attachments/assets/527bc70e-7057-4601-94d1-a7f2db631450">
+
+Query 10 allows managers to see which departments may be understaffed and if there is any depth within each department that can help. For example, recreational sports is much more staffed than spin class and pilates. This can help with decision making for hiring and if and when they may need to hire, like if pilates becomes more popular.
 
 
 **Database information:**
