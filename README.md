@@ -8,7 +8,7 @@ Group 4
 
 Lindsay Fleishman @LindsayFleishman
 
-Jonathan Li @JonathanL02
+Jonathan Li [@JonathanL02](https://github.com/JonathanL02)
 
 Arti Girish @artig123
 
