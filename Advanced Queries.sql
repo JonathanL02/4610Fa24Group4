@@ -74,3 +74,12 @@ FROM Members
 GROUP BY zipCode;
 
 CALL TP_Q7();
+
+#List the rooms that have Dumbbells and Treadmill and the amount in each room (inventory check regarding purchasing new equipment or rooms without this equipment need to purchase that equipment)
+SELECT roomType, COUNT(equipmentName)
+FROM Rooms
+JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
+WHERE equipmentName IN ("Dumbbells", "Treadmill")
+GROUP BY roomType;
+
+CALL TP_8();
