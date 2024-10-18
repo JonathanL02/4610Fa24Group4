@@ -94,3 +94,11 @@ GROUP BY employeeFName, employeeLName, memberFName, memberLName
 HAVING COUNT(Sessions.sessionID) >= 2;
 
 CALL TP_9();
+
+#How much equipment exists in each room
+
+SELECT Rooms.roomNumber, COUNT(Equipment.equipmentID)
+FROM Rooms
+JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
+GROUP BY Rooms.roomNumber
+ORDER BY COUNT(Equipment.equipmentID) DESC;
