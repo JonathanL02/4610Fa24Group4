@@ -55,8 +55,9 @@ Overall, the data model truly organizes the functionality of a gym, and pieces t
 <img width="687" alt="Screenshot 2024-10-18 at 1 42 50 PM" src="https://github.com/user-attachments/assets/612b79f6-ddc3-4733-b93e-7a63a0749206">
 <img width="686" alt="Screenshot 2024-10-18 at 1 42 43 PM" src="https://github.com/user-attachments/assets/bfdc5e24-5990-43ab-9ce5-9ce15ad0d4a3">
 <img width="689" alt="Screenshot 2024-10-18 at 1 42 33 PM" src="https://github.com/user-attachments/assets/d9523cfc-ddec-4077-a561-b1089d5875c4">
+<img width="737" alt="Screenshot 2024-10-18 at 4 57 36 PM" src="https://github.com/user-attachments/assets/1879484b-49c5-44ef-8a4d-966fb586fa0a">
 
-<img width="737" alt="Screenshot 2024-10-18 at 4 55 37 PM" src="https://github.com/user-attachments/assets/621bebf4-454b-4439-9be7-149e5b2c3873">
+
 
 **Queries:**
 1. Query 1 lists the number of members taking a specific class, grouping by the name of the class and ordering by descending.
