@@ -66,6 +66,9 @@ A class that goes above the duration time can impact the scheduling of classes, 
 Query 3 shows insight into the specific information on the clients that do not attend any sessions at the gym. This is an analysis tool to understanding if there are any patterns with those who do not take classes: do they prefer personal training? working out on their own? This offers new ideas and strategies to outreach to these customers to make sure the gym is still profitting from them, maybe offering personal training instead of sessions for a different charge. 
 
 4. Query 4 lists the least popular membership, grouping by membership type and counting how many people have each type of membership.
+![IMG_7274](https://github.com/user-attachments/assets/c55da472-6cfb-4549-ab42-33564c361fb6)
+
+
    By analyzing the least popular membership, the business can determine the next steps for what type of membership should be involved instead to achieve higher amount of clients attending the gym. Showing results for least popular membership can help managers see if they should get rid of the membership completely and stick with the other types or adjust it slightly to market it better to the target market.
 
 5. Query 5 finds employees who supervise the most people and their rating for sessions is less than 5.
