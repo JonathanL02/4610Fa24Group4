@@ -102,3 +102,5 @@ FROM Rooms
 JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
 GROUP BY Rooms.roomNumber
 ORDER BY COUNT(Equipment.equipmentID) DESC;
+
+CALL TP_10();
