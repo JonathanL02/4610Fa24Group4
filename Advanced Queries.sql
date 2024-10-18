@@ -43,3 +43,27 @@ WHERE sup.employeeID IN (SELECT sup.employeeID  FROM Sessions)
 AND sup.employeeID IN (SELECT sup.employeeID FROM Members_Taking_Sessions WHERE rating < 5);
 
 CALL TP_Q5();
+
+# Find number of members taking sessions between Janurary and March and  Percentage of yearly, as well as between October and December
+SELECT memberFName, memberLName, 
+       COUNT(Sessions.sessionID) AS NumberOfSessions,
+       CONCAT(ROUND(COUNT(Sessions.sessionID) * 100.0 / (SELECT COUNT(*) 
+                                                         FROM Sessions 
+                                                         WHERE sessionDATE BETWEEN '2023-01-01' AND '2023-12-31'), 2), '%') AS PercentageOfYearlySessions
+FROM Members 
+JOIN Members_Taking_Sessions ON Members.memberID = Members_Taking_Sessions.memberID 
+JOIN Sessions ON Members_Taking_Sessions.sessionID = Sessions.sessionID
+WHERE sessionDATE BETWEEN '2023-01-01' AND '2023-03-31'
+GROUP BY memberFName, memberLName;
+SELECT memberFName, memberLName, 
+       COUNT(Sessions.sessionID) AS NumberOfSessions,
+       CONCAT(ROUND(COUNT(Sessions.sessionID) * 100.0 / (SELECT COUNT(*) 
+                                                         FROM Sessions 
+                                                         WHERE sessionDATE BETWEEN '2023-01-01' AND '2023-12-31'), 2), '%') AS PercentageOfYearlySessions
+FROM Members 
+JOIN Members_Taking_Sessions ON Members.memberID = Members_Taking_Sessions.memberID 
+JOIN Sessions ON Members_Taking_Sessions.sessionID = Sessions.sessionID
+WHERE sessionDATE BETWEEN '2023-10-01' AND '2023-12-31'
+GROUP BY memberFName, memberLName;
+
+CALL TP_Q6();
