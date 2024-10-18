@@ -34,3 +34,12 @@ GROUP BY membershipType
 ORDER BY COUNT(memberID); 
 
 CALL TP_Q4();
+
+#Finds supervisors with a low rating in their sessions
+SELECT sup.employeeID, sup.employeeFname, sup.employeeLName 
+FROM Employees AS sub
+JOIN Employees AS sup ON sub.supervisorID = sup.employeeID 
+WHERE sup.employeeID IN (SELECT sup.employeeID  FROM Sessions)
+AND sup.employeeID IN (SELECT sup.employeeID FROM Members_Taking_Sessions WHERE rating < 5);
+
+CALL TP_Q5();
