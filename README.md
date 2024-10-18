@@ -48,15 +48,20 @@ Overall, the data model truly organizes the functionality of a gym, and pieces t
 **Queries:**
 1. Query 1 lists the number of members taking a specific class, grouping by the name of the class and ordering by descending.
 <img width="686" alt="Screenshot 2024-10-18 at 9 31 32 AM" src="https://github.com/user-attachments/assets/8a17dcbb-fc03-4c80-a2ca-abe1b9f2d868">
+
 Query 1 allows managers to see which sessions are the most popular, which can be seen by the count of members taking each class. This information is likely needed to help organize scheduling, to make sure the classes that have the highest turnout are more populated on the schedule than those that do not have anyone taking it. Managers are also able to identify trends through this query by understanding more about their members and clients' needs. 
 
 
 
 2. Query 2 lists the number of sessions that are above the average class duration, which are grouped by the type of class.
 
+<img width="811" alt="Screenshot 2024-10-18 at 9 31 41 AM" src="https://github.com/user-attachments/assets/7090bcbf-4d9b-47c5-a124-347a99b5369d">
+
 A class that goes above the duration time can impact the scheduling of classes, as this can be due by an instructor teaching off the normal time or a class that's offered for a longer period of time for those who want to workout for longer. If the session duration is longer than average and the managers don't schedule around this, it may cause delays to classes that are right after the session before, giving employees a harder time to change over. In addition, the number of classes offered can allow managers to see who are taking these longer sessions, and if the time it is offered fits those certain members; maybe it is students after school or people who are taking a lunch time break. It helps for managers to achieve their goal of making sure each session gets capacity members taking it for most profit. 
 
 3. Query 3 lists the members who are not taking any classes at the gym. The results were ordered by the members' last names.
+<img width="800" alt="Screenshot 2024-10-18 at 9 31 51 AM" src="https://github.com/user-attachments/assets/a0e82063-a7da-41cb-b6bf-25d9dfb92c30">
+
 
 Query 3 shows insight into the specific information on the clients that do not attend any sessions at the gym. This is an analysis tool to understanding if there are any patterns with those who do not take classes: do they prefer personal training? working out on their own? This offers new ideas and strategies to outreach to these customers to make sure the gym is still profitting from them, maybe offering personal training instead of sessions for a different charge. 
 
