@@ -110,6 +110,10 @@ This query can serve as an inventory check for the business to track how much an
 
 This query allows the business to see who the members' favorite teachers are, and can help to make the business decision on whether the employee should teach more sessions and if that will help populate the schedule. For example, the same employee in this table was favored by multiple members, showing that the employee can be promoted to a higher teaching position if they believe it will bring in more revenue and better feedback. 
 
+10. Query 10
+
+Query 10 allows managers to see which departments may be understaffed and if there is any depth within each department that can help. For example, 
+
 
 **Database information:**
 
