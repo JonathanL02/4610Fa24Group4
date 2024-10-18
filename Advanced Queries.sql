@@ -68,7 +68,7 @@ GROUP BY memberFName, memberLName;
 
 CALL TP_Q6();
 
-# List members based off of where they are from ( might help us with advertising methods such as disturbuting bring free guest to memebers of that 	area)
+# List members based off of where they are from (might help us with advertising methods such as disturbuting bring free guest to memebers of that 	area)
 SELECT COUNT(memberID) AS "Members in the Area", zipCode
 FROM Members
 GROUP BY zipCode;
@@ -95,11 +95,13 @@ HAVING COUNT(Sessions.sessionID) >= 2;
 
 CALL TP_Q9(); 
 
-# How much equipment exists in each room
-SELECT Rooms.roomNumber, COUNT(Equipment.equipmentID)
-FROM Rooms
-JOIN Equipment ON Rooms.roomNumber = Equipment.roomNumber
-GROUP BY Rooms.roomNumber
-ORDER BY COUNT(Equipment.equipmentID) DESC;
+# How many employees are supervised under the supervisor for a specialty
+WITH 
+supervisor AS (SELECT * FROM Employees),
+supervised AS (SELECT * FROM Employees)
+SELECT supervisor.employeeFName AS "Supervisor First Name", supervisor.employeeLName AS "Supervisor Last Name", supervisor.specialty, COUNT(supervised.employeeID) AS "Number of Subordinates"
+FROM supervisor
+JOIN supervised ON supervisor.employeeID = supervised.supervisorID
+GROUP BY supervisor.employeeFName, supervisor.employeeLName, supervisor.specialty;
 
-CALL TP_10();
+CALL TP_Q10();
