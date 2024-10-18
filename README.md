@@ -59,7 +59,8 @@ Overall, the data model truly organizes the functionality of a gym, and pieces t
 
 **Queries:**
 1. Query 1 lists the number of members taking a specific class, grouping by the name of the class and ordering by descending.
-<img width="686" alt="Screenshot 2024-10-18 at 9 31 32 AM" src="https://github.com/user-attachments/assets/8a17dcbb-fc03-4c80-a2ca-abe1b9f2d868">
+<img width="712" alt="Screenshot 2024-10-18 at 4 38 21 PM" src="https://github.com/user-attachments/assets/fee52af6-1386-48b3-bfa1-24bfb059dde6">
+
 
 Query 1 allows managers to see which sessions are the most popular, which can be seen by the count of members taking each class. This information is likely needed to help organize scheduling, to make sure the classes that have the highest turnout are more populated on the schedule than those that do not have anyone taking it. Managers are also able to identify trends through this query by understanding more about their members and clients' needs. 
 
