@@ -88,6 +88,11 @@ This query allows managers to analyze and compare these two seasons to see how p
 
 This query allows managers to get a better understanding of the demographics of their clients. If more come from a certain area, this can help with marketing strategies to help relate to the members and produce more revenue.
 
+8. Query 8 lists the rooms that have treadmills and dumbbels in them and the amount in each room.
+![IMG_0058](https://github.com/user-attachments/assets/75aaf824-4019-4562-8d4a-d0edaa382111)
+
+This query can serve as an inventory check for the business to track how much and where all of the equipment is. This can help in regards to if a specific piece of equipment needs a repurchase, if there a rooms that don't already have the equipment in it and need it for a certain session, or if more members join a session in that room and a piece of equipment is needed. This organizes and analyzes inventory, a key component to running a gym. 
+
 **Database information:**
 
 Additional Information: The queries are stored in the Stored Procedures section of the database which can be called using CALL TP_QX();
